@@ -2,7 +2,7 @@
 Super Resolution————gan
 
 ## Abstract
-TecoGAN is adversarial training is very successful in single image super-resolution tasks because it results in realistic, highly detailed outputs. Therefore, current optimal video super-resolution methods still support the simpler paradigm as the adversarial loss function. The nature of averaging direct vector parametric as a loss function can easily lead to temporal smoothness and coherence, but the generated images lack spatial detail. This study proposes an adversarial training method for video super-resolution that allows the resolution to have temporal coherence without loss of spatial detail.
+TecoGAN is adversarial training is very successful in single image super-resolution tasks because it results in realistic, highly detailed outputs. Therefore, current optimal video super-resolution methods still support the more straightforward paradigm as the adversarial loss function. The nature of averaging direct vector parametric as a loss function can easily lead to temporal smoothness and coherence, but the generated images lack spatial detail. This study proposes an adversarial training method for video super-resolution that allows the resolution to have temporal coherence without loss of spatial detail.
 
 
 ## Detailed Description
@@ -12,7 +12,7 @@ So it was the classical DCGAN that took the lead in alleviating this problem, pr
 
 Best-buddy GAN (Beby-GAN) then proposes a novel best-buddy loss function, an improved one-to-many MAE loss, to allow flexible funding and use of HR-supervised signals by exploiting the self-similarity prevalent in natural images. It also proposes a region-aware adversarial learning strategy to solve the ringing problem of the generated images. Finally, and breaking the 2K resolution limit of current SISR datasets, we provide ultra-high resolution 4K (UH4K) image datasets with different classes.
 
-TecoGAN wants to reconstruct the missing image details based on the current image information. Video super-resolution techniques are more complex, requiring the generation of detail-rich frames and the maintenance of coherence between images.
+TecoGAN wants to reconstruct the missing image details based on current information. However, video super-resolution techniques are more complex, requiring the generation of detail-rich frames and the maintenance of coherence between images.
 Natural image super-resolution is one of the classic challenges in image and video processing. For single image super-resolution (SISR), deep learning-based approaches achieve the best peak signal-to-noise ratio (PSNR) available, while GAN-based architectures achieve significant improvements in perceptual quality.
 In video super-resolution (VSR) tasks, existing methods mainly use standard loss functions, such as mean squared loss, rather than adversarial loss functions. Similarly, the evaluation of results remains focused on vector paradigm-based metrics such as PSNR and Structural Similarity (SSIM) metrics. In contrast to SISR, the main difficulty with VSR is obtaining precise results without unnatural artefacts. For example, based on the loss of mean squared error, recent VSR tasks use multiple frames from low-resolution inputs or reuse previously generated results to improve temporal coherence.
 
@@ -22,9 +22,7 @@ BSRGAN, on the other hand, is based on the core idea of y = (x times k) decreasi
 
 ### Datasets
 1.DIV 2K
-https://data.vision.ee.ethz.ch/cvl/DIV2K/
 2.Urban100: 4x upscaling
-https://deepai.org/dataset/urban100-4x-upscaling
 3.other datasets create by me
 pictures that I find and so on
 
@@ -44,4 +42,4 @@ I put the images of the architecture in the pictures folder(2.1-2.4)
 5.Designing a Practical Degradation Model for Deep Blind Image Super-Resolution
 6.Temporally Coherent GANs for Video Super-Resolution (TecoGAN)
 7.Image super-resolution using deep convolutional networks（SRCNN）
-8.Wang, Zhihao, et al. Deep Learning for Image Super-Resolution: A Survey. arXiv, 7 Feb. 2020. arXiv.org, https://doi.org/10.48550/arXiv.1902.06068.
+8.Wang, Zhihao, et al. Deep Learning for Image Super-Resolution: A Survey. arXiv, 7 Feb. 2020. arXiv.org.
