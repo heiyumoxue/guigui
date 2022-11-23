@@ -35,11 +35,18 @@ I put the images of the architecture in the pictures folder(2.1-2.4)
 
 
 ## References
-1.Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network（SRGAN）
-2.ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks
+1.Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network（SRGAN  
+
+2.ESRGAN: Enhanced Super-Resolution Generative Adversarial Networks  
+
 3.Designing a Practical Degradation Model for Deep Blind Image Super-Resolution（BSRGAN）
-4.Best-Buddy GANs for Highly Detailed Image Super-Resolution（AAAI 2022）
-5.Designing a Practical Degradation Model for Deep Blind Image Super-Resolution
-6.Temporally Coherent GANs for Video Super-Resolution (TecoGAN)
-7.Image super-resolution using deep convolutional networks（SRCNN）
+
+4.Best-Buddy GANs for Highly Detailed Image Super-Resolution（AAAI 2022）  
+
+5.Designing a Practical Degradation Model for Deep Blind Image Super-Resolution  
+
+6.Temporally Coherent GANs for Video Super-Resolution (TecoGAN)  
+
+7.Image super-resolution using deep convolutional networks（SRCNN)  
+
 8.Wang, Zhihao, et al. Deep Learning for Image Super-Resolution: A Survey. arXiv, 7 Feb. 2020. arXiv.org.
